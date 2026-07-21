@@ -1,7 +1,3 @@
-[pages]
-build_command = "npm run build"
-dev_command = "npm run dev"
+name = "anticancer-lhbreo"
 compatibility_flags = ["nodejs_compat"]
-
-# Cloudflare Pages 项目名称
-# 部署后访问: https://anticancer-web.pages.dev
+pages_build_output_dir = ".vercel/output/static"
